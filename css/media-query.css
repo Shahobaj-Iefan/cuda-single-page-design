@@ -1,0 +1,129 @@
+@media  screen and (max-width: 768px) {
+    .header-section .logo-section{
+    width: 100%;
+    float: none;
+    text-align: center;
+    }
+    .header-section .logo-section img{
+    width: 110px;
+    height: 35px;
+    margin-bottom: 50px;
+    }
+    .header-section .main-menu{
+    width: 100%;
+    float: none;
+    text-align: center;
+    }
+    .nav-section ul{
+        float: none;
+        width: 100%;
+    }
+    .col-1-4{
+        width: 46%;
+        margin: 0 auto;
+        float: left;
+        margin-left: 4%;
+        margin-top: 20px;
+
+    }
+    .img-resize{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media  screen and (max-width: 480px) {
+    .bar{
+        display: inline;
+    }
+    .header-section .logo-section{
+        display: inline;
+    }
+    .header-section .logo-section img{
+        width: 50px;
+        height: 20px;
+    }
+
+    .header-section .main-menu{
+        float: none;
+        text-align: left;
+    }
+
+    .nav-section ul{
+        display: none;
+        float: none;
+    }
+    .nav-section ul li{
+        display: block;
+
+    }
+    .nav-section ul li a{
+        display: block;
+
+    }
+    .header-section .call-to-action h1{
+        font-size: 15px;
+    }
+    .header-section .call-to-action {
+        padding: 50px 0px 10px 0px;
+    }
+    .btn a {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .service-section .content h1{
+        font-size: 20px;
+    }
+    .service-section h1::after {
+        width: 24%;
+    }
+    .content h1 {
+        font-size: 18px;
+    }
+    .content p {
+        font-size: 13px;
+    }
+    .col-1-4 {
+        width: 100%;
+    }
+    .service-section .content h1{
+        font-size: 18px;
+    }
+    .laptop-section .col-1-2 img {
+        max-width: 200px;
+        height: auto;
+    }
+    .laptop-section .col-1-2 {
+        width: 100%;
+    }
+    .about-us .client-wrap {
+        width: 100%;
+    }
+    .client-wrap .client-thumb{
+        width: 100%;
+    }
+    .client-wrap .client-content {
+        width: 100%;
+    }
+    .client-content p,
+    .client-content h3,
+    .client-content h4{
+        text-align: center;
+    }
+    .contact-section .container {
+        width: 80%;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"] {
+        width: 100%;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .footer-item ul li {
+        display: block;
+        padding: 3px 5px;
+    }
+}
